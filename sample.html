@@ -16,8 +16,7 @@ body {
 #wrapper {
     background-color: lightblue;
 	text-align: left;
-	width: 760px;
-	margin-top: 0px;
+	margin-top: 5px;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
@@ -47,6 +46,53 @@ body {
     border-bottom-right-radius: 25px;
     color: black;
 }
+
+#logo {
+    height: 95px;
+    background-color: turquoise;
+    padding-bottom: 12px;
+    color: black;
+    margin-bottom: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#nav {
+    height: 370px;
+    width: 200px;
+    background-color: dodgerblue;
+    color: black;
+    float: left;
+}
+
+#categories{
+    height: 370px;
+    width: 200px;
+    background-color: dodgerblue;
+    color: black;
+    float: right;
+}
+
+#topContent{
+    width: 380px;
+    height: 185px;
+    float: left;
+    color: black;
+    background-color: lightskyblue;
+}
+
+#bottomContent{
+    width: 380px;
+    height: 185px;
+    float: left;
+    color: black;
+    background-color: lightsteelblue;
+}
+
+#banner {
+    height: 180px;
+    background-color: deepskyblue;
+}
 -->
 </style>
 
@@ -55,9 +101,20 @@ body {
 <body>
     
 <div id="wrapper">
-    <div id="header"></div>
-        <div id="content"></div>
-            <div id="footer"></div>
+    
+    <div id="header">
+        <div id="logo">Logo</div>
+        <div id="banner">Banner</div>
+        <div id="nav">Navigation</div>
+    </div>
+    
+        <div id="content">
+            <div id="categories">Categories</div>
+            <div id="topContent">Content1</div>
+            <div id="bottomContent">Content2</div>
+        </div>
+        
+            <div id="footer">Footer</div>
 </div>
 </body>
 </html>
